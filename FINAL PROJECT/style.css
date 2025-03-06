@@ -1,0 +1,112 @@
+    {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header,
+    footer {
+        background-color: rgba(171, 37, 13, 0.873);
+        color: white;
+        width: 100%;
+    }
+
+
+    footer {
+        position: none;
+        bottom: 0%;
+        text-align: center;
+        font-size: 22px;
+        padding: 20px 0;
+    }
+
+    header h2 {
+        font-size: 30px;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    nav ul li {
+        list-style: none;
+        display: inline-block;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        padding: 0 15px;
+        text-transform: capitalize;
+    }
+
+    article {
+        background-color: white;
+        padding: 2%;
+        margin-left: 15%;
+        margin-right: 2%;
+        margin-top: 1%;
+        margin-left: 1%;
+        position: none;
+    }
+
+    body {
+        background-image: url(images.jpeg);
+    }
+
+    p {
+        color: black;
+        font-size: 110%;
+        font-family: "Arial Narrow", Arial, Helvetica, sans-serif;
+    }
+
+    p1 {
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+    }
+
+    figure {
+        text-align: center;
+    }
+
+    figcaption {
+        text-align: center;
+    }
+
+    blockquote {
+        font-size: 20px;
+        text-align: center;
+        font-family: "Arial Narrow", Arial, Helvetica, sans-serif;
+        line-height: 1.5em;
+        margin: 4% 0 4% 6%;
+        background-color: darkgrey;
+        padding: 2%;
+        border: 10px solid;
+
+    }
+
+    blockquote:before {
+        content: "\201C";
+        font-size: 4em;
+        vertical-align: -0.35em;
+        line-height: .1em;
+    }
+
+    article h2 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .nav-item a:hover {
+        color: blue;
+    }
+
+    .divide {
+        column-count: 3;
+        column-gap: 10px;
+        padding-top: 10px;
+    }
